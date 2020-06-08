@@ -139,19 +139,14 @@ if (years7==1){
   var time_risk = (points1+points2+points3+points4+points5+points6+points7);
 
 if(time_risk<=6){
-    document.write(time_risk);
     document.write("You're a conservative investor: <br> For investors who seek current income and stability and are less concerned about growth." );
 }else if(time_risk<22){
-    document.write(time_risk);
     document.write("You're a moderately conservative investor: <br> For investors who seek current income and stability, with modest potential for increase in the value of their investments." );
 }else if(time_risk<30){
-    document.write(time_risk);
     document.write("You're a moderate investor: <br> For long-term investors who don’t need current income and want some growth potential. Likely to entail some fluctuations in value, but presents less volatility than the overall equity market."); 
 }else if(time_risk<40){
-    document.write(time_risk);
     document.write("You're a moderately aggresive investor: <br> For long-term investors who want good growth potential and don’t need current income. Entails a fair amount of volatility, but not as much as a portfolio invested exclusively in equities.");
-}else if(time_risk<52){
-    document.write(time_risk);    
+}else if(time_risk<52){    
     document.write("You're an aggresive investor: <br> For long-term investors who want high growth potential and don’t need current income. May entail substantial year-to-year volatility in value in exchange for potentially high long-term returns.");    
 }
 
