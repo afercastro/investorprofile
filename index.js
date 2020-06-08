@@ -30,15 +30,15 @@ var years1 = prompt("I plan to begin withdrawing money from my investments in 1-
 var years2 = prompt("Once I begin withdrawing funds from my investments, I plan to spend all of the funds in 1- Less than 2 years 2- 2-5 years 3- 6-10 years 4- 11 years or more: ","");
 
 if (years2==1){
-        points2=0;
-    }
-    else if(years2==2){
         points2=1;
     }
+    else if(years2==2){
+        points2=3;
+    }
     else if(years2==3){
-        points2=4;
+        points2=7;
     }else if(years2==4){
-        points2=8;
+        points2=10;
     }
 
 //I would describe my knowledge of investments as
@@ -136,7 +136,7 @@ if (years7==1){
 }
 
 
-
+//investor profile
 var time_risk = (points1+points2+points3+points4+points5+points6+points7)
 
 if(time_risk<=6){
