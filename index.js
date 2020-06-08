@@ -141,7 +141,7 @@ var time_risk = (points1+points2+points3+points4+points5+points6+points7)
 if(time_risk<7){
     document.write(time_risk);
     document.write("<h3>You're a conservative investor: </h3><br> <p>For investors who seek current income and stability and are less concerned about growth.</p>" );
-}else if(time_risk<22){
+}else if(time_risk<23){
     document.write(time_risk);
     document.write("<h3>You're a moderately conservative investor: </h3><br> <p>For investors who seek current income and stability, with modest potential for increase in the value of their investments.</p>" );
 }else if(time_risk<30){
