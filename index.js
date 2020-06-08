@@ -33,12 +33,12 @@ if (years2==1){
         points2=0;
     }
     else if(years2==2){
-        points2=4;
+        points2=1;
     }
     else if(years2==3){
-        points2=8;
+        points2=4;
     }else if(years2==4){
-        points2=10;
+        points2=8;
     }
 
 //I would describe my knowledge of investments as
