@@ -139,16 +139,16 @@ if (years7==1){
 //investor profile
 var time_risk = (points1+points2+points3+points4+points5+points6+points7)
 
-if(time_risk=<7){
-    document.write("<h3>You're a conservative investor: </h3><br> <p>For investors who seek current income and stability and are less concerned about growth.</p>" );
-}else if(time_risk=<22){
-    document.write("<h3>You're a moderately conservative investor: </h3><br> <p>For investors who seek current income and stability, with modest potential for increase in the value of their investments.</p>" );
-}else if(time_risk=<30){
-    document.write("<h3>You're a moderate investor: </h3><br> <p>For long-term investors who don’t need current income and want some growth potential. Likely to entail some fluctuations in value, but presents less volatility than the overall equity market.</p>"); 
-}else if(time_risk=<40){
-    document.write("<h3>You're a moderately aggresive investor: </h3><br> <p>For long-term investors who want good growth potential and don’t need current income. Entails a fair amount of volatility, but not as much as a portfolio invested exclusively in equities.</p>");
+if(time_risk<7){
+    document.write(time_risk+"<h3>You're a conservative investor: </h3><br> <p>For investors who seek current income and stability and are less concerned about growth.</p>" );
+}else if(time_risk<22){
+    document.write(time_risk+"<h3>You're a moderately conservative investor: </h3><br> <p>For investors who seek current income and stability, with modest potential for increase in the value of their investments.</p>" );
+}else if(time_risk<30){
+    document.write(time_risk+"<h3>You're a moderate investor: </h3><br> <p>For long-term investors who don’t need current income and want some growth potential. Likely to entail some fluctuations in value, but presents less volatility than the overall equity market.</p>"); 
+}else if(time_risk<40){
+    document.write(time_risk+"<h3>You're a moderately aggresive investor: </h3><br> <p>For long-term investors who want good growth potential and don’t need current income. Entails a fair amount of volatility, but not as much as a portfolio invested exclusively in equities.</p>");
 }else if(time_risk<70){
-        document.write("<h3>You're an aggresive investor: </h3><br> <p>For long-term investors who want high growth potential and don’t need current income. May entail substantial year-to-year volatility in value in exchange for potentially high long-term returns.</p>");    
+        document.write(time_risk+"<h3>You're an aggresive investor: </h3><br> <p>For long-term investors who want high growth potential and don’t need current income. May entail substantial year-to-year volatility in value in exchange for potentially high long-term returns.</p>");    
 }
 
 
